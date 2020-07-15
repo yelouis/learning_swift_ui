@@ -20,7 +20,7 @@ class EmojiMemoryGame {
         }
     }
     
-    // MARK: - Access to the 'game'
+    // MARK: - Access to the 'game' or the model
     var cards: Array<MemoryGame<String>.Card> {
         return game.cards
     }
