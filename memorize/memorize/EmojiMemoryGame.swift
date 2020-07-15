@@ -13,8 +13,9 @@ class EmojiMemoryGame {
     private(set) var game: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
     
     static func createMemoryGame() -> MemoryGame<String> {
-        let emojis = ["👻", "🎃", "🕷"]
-        return MemoryGame<String>(numberOfPairsOfCards: Int.random(in: 1...emojis.count)) { pairIndex in
+        let emojis = ["👻", "🎃", "🕷", "👹", "😸"]
+        // I was thinking that we can useInt.random(in: 2...emoji.count) instead.
+        return MemoryGame<String>(numberOfPairsOfCards: Int.random(in: 2...5)) { pairIndex in
             return emojis[pairIndex]
         }
     }
