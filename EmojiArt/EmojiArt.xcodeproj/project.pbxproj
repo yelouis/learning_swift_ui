@@ -11,6 +11,7 @@
 		8E34BF3024D15361002881AD /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E34BF2F24D15361002881AD /* GridLayout.swift */; };
 		8E34BF3224D208C9002881AD /* EmojiArtDocumentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E34BF3124D208C8002881AD /* EmojiArtDocumentStore.swift */; };
 		8E34BF3424D20D98002881AD /* EmojiArtDocumentChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E34BF3324D20D98002881AD /* EmojiArtDocumentChooser.swift */; };
+		8E34BF3624D28B32002881AD /* EditableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E34BF3524D28B32002881AD /* EditableText.swift */; };
 		8ED2345E24C6A1880055DD85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2345D24C6A1880055DD85 /* AppDelegate.swift */; };
 		8ED2346024C6A1880055DD85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2345F24C6A1880055DD85 /* SceneDelegate.swift */; };
 		8ED2346224C6A1880055DD85 /* EmojiArtDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2346124C6A1880055DD85 /* EmojiArtDocumentView.swift */; };
@@ -32,6 +33,7 @@
 		8E34BF2F24D15361002881AD /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridLayout.swift; path = ../../memorize/memorize/GridLayout.swift; sourceTree = "<group>"; };
 		8E34BF3124D208C8002881AD /* EmojiArtDocumentStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentStore.swift; sourceTree = "<group>"; };
 		8E34BF3324D20D98002881AD /* EmojiArtDocumentChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentChooser.swift; sourceTree = "<group>"; };
+		8E34BF3524D28B32002881AD /* EditableText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableText.swift; sourceTree = "<group>"; };
 		8ED2345A24C6A1880055DD85 /* Emoji Art.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Art.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED2345D24C6A1880055DD85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ED2345F24C6A1880055DD85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				8ED2345D24C6A1880055DD85 /* AppDelegate.swift */,
 				8ED2345F24C6A1880055DD85 /* SceneDelegate.swift */,
 				8ED2346324C6A18D0055DD85 /* Assets.xcassets */,
+				8E34BF3524D28B32002881AD /* EditableText.swift */,
 				8EE202B324CAB6ED00A5A1E8 /* Spinning.swift */,
 				8E34BF2D24D15359002881AD /* Grid.swift */,
 				8E34BF2F24D15361002881AD /* GridLayout.swift */,
@@ -194,6 +197,7 @@
 				8E34BF3224D208C9002881AD /* EmojiArtDocumentStore.swift in Sources */,
 				8EE202B424CAB6ED00A5A1E8 /* Spinning.swift in Sources */,
 				8E34BF3424D20D98002881AD /* EmojiArtDocumentChooser.swift in Sources */,
+				8E34BF3624D28B32002881AD /* EditableText.swift in Sources */,
 				8EE8A59A24C9570F00DF8C2A /* AnimatableSystemFontModifier.swift in Sources */,
 				8ED2347224C6A1C10055DD85 /* EmojiArtDocument.swift in Sources */,
 				8E34BF2E24D15359002881AD /* Grid.swift in Sources */,
